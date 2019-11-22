@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>reset</title>
+    <desc>Created with Sketch.</desc>
+    <g id="filter_enhancement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="runtime_light-1" transform="translate(-212.000000, -717.000000)" fill="#FFFFFF">
+            <g id="Group-4" transform="translate(200.000000, 708.000000)">
+                <g id="reset" transform="translate(12.000000, 9.000000)">
+                    <path d="M8,4 L8,0.5 L3,5.5 L8,10.5 L8,6 C11.3,6 14,8.7 14,12 C14,15.3 11.3,18 8,18 C4.7,18 2,15.3 2,12 L0,12 C0,16.4 3.6,20 8,20 C12.4,20 16,16.4 16,12 C16,7.6 12.4,4 8,4 L8,4 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

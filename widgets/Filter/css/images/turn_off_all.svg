@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>close all</title>
+    <desc>Created with Sketch.</desc>
+    <g id="filter_enhancement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="runtime_light-1" transform="translate(-159.000000, -720.000000)" fill="#FFFFFF">
+            <g id="Group-5" transform="translate(152.000000, 708.000000)">
+                <g id="Group-3">
+                    <g id="close-all" transform="translate(7.000000, 12.000000)">
+                        <path d="M4.96168033,12.6819385 C5.98927897,13.5066279 7.29416572,14 8.71428571,14 C12.0279942,14 14.7142857,11.3137085 14.7142857,8 C14.7142857,6.42277166 14.1057113,4.98768348 13.1105716,3.91674453 L4.96168033,12.6819385 Z M4.14815279,11.8925337 L12.2643788,3.16247547 C11.270273,2.43170594 10.0426945,2 8.71428571,2 C5.40057722,2 2.71428571,4.6862915 2.71428571,8 C2.71428571,9.48539621 3.25405623,10.8447223 4.14815279,11.8925337 Z M0.714285714,8 C0.714285714,3.581722 4.29436181,0 8.7059382,0 L16.7226332,0 C21.136301,0 24.7142857,3.59071231 24.7142857,8 C24.7142857,12.418278 21.1342096,16 16.7226332,16 L8.7059382,16 C4.29227041,16 0.714285714,12.4092877 0.714285714,8 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
