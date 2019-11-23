@@ -263,7 +263,7 @@
             "config":{
                "selectionColor":"#00FFFF",
                "selectionMode":"partial",
-               "enableByDefault":false,
+               "enableByDefault":true,
                "allowExport":false,
                "includeRuntimeLayers":false,
                "geometryTypes":[
