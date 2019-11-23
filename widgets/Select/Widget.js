@@ -799,6 +799,7 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
             !1 === this.config.enableByDefault || this.selectDijit.isActive() || this.selectDijit.activate()
         },
         onOpen: function() {
+            x.getInstance().activateWidget(this)
 				var panel = this.getPanel();
 				panel.position.width = 400;
 				panel.position.height = 200;
@@ -808,9 +809,8 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
 					l: panel.position.left || 0,
 					t: panel.position.top || 0
 				};
-        panel.setPosition(panel.position);
-        panel.panelManager.normalizePanel(panel);
-            x.getInstance().activateWidget(this)
+				panel.setPosition(panel.position);
+				panel.panelManager.normalizePanel(panel);
         },
         onDestroy: function() {
             this.selectDijit.isActive() && this.selectDijit.deactivate();
