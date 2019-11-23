@@ -275,7 +275,7 @@
                   }
                }
             },
-            "openAtStart":true
+            "openAtStart":false
          },
          {
             "position":{
