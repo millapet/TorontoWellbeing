@@ -800,6 +800,8 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
         },
         onOpen: function() {
             x.getInstance().activateWidget(this)
+        },
+		  onOpen: function () {			  
 				var panel = this.getPanel();
 				panel.position.width = 400;
 				panel.position.height = 200;
@@ -811,7 +813,9 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
 				};
 				panel.setPosition(panel.position);
 				panel.panelManager.normalizePanel(panel);
-        },
+
+				console.log('onOpen');
+			},
         onDestroy: function() {
             this.selectDijit.isActive() && this.selectDijit.deactivate();
             this._clearAllSelections()
