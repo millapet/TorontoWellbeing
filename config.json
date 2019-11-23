@@ -258,7 +258,7 @@
             "id":"_32",
             "name":"Select",
             "version":"2.14",
-            "closeable":true,
+            "closeable":false,
             "uri":"widgets/Select/Widget",
             "config":{
                "selectionColor":"#00FFFF",
