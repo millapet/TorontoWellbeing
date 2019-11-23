@@ -249,17 +249,17 @@
             "name":"FullScreen"
          },
          {
-            "position":{
-               "left":95,
-               "top":10,
-               "relativeTo":"map"
-            },
             "placeholderIndex":1,
             "id":"_32",
             "name":"Select",
             "version":"2.14",
             "closeable":true,
             "uri":"widgets/Select/Widget",
+				"position":{
+               "left":95,
+               "top":10,
+               "relativeTo":"map"
+            },
             "config":{
                "selectionColor":"#00FFFF",
                "selectionMode":"partial",
