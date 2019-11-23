@@ -798,24 +798,22 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
             this._setSelectionSymbol();
             !1 === this.config.enableByDefault || this.selectDijit.isActive() || this.selectDijit.activate()
         },
-        onOpen: function() {
-            x.getInstance().activateWidget(this)
-        },
 		  onOpen: function () {			  
 				var panel = this.getPanel();
-				panel.position.width = 400;
-				panel.position.height = 200;
+				panel.position.width = 300;
+				panel.position.height = 300;
 				panel._originalBox = {
 					w: panel.position.width,
 					h: panel.position.height,
-					l: panel.position.left,
-					t: panel.position.top 
-				};
-				panel.setPosition(panel.position);
-				panel.panelManager.normalizePanel(panel);
-
-				console.log('onOpen');
+					l: panel.position.left || 0,
+					t: panel.position.top || 0
+        };
+        panel.setPosition(panel.position);
+        panel.panelManager.normalizePanel(panel);
 			},
+			onOpen: function() {
+            x.getInstance().activateWidget(this)
+        },
         onDestroy: function() {
             this.selectDijit.isActive() && this.selectDijit.deactivate();
             this._clearAllSelections()
