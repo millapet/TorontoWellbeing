@@ -808,8 +808,8 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
 				panel._originalBox = {
 					w: panel.position.width,
 					h: panel.position.height,
-					l: 0,
-					t: 0
+					l: panel.position.left,
+					t: panel.position.top 
 				};
 				panel.setPosition(panel.position);
 				panel.panelManager.normalizePanel(panel);
