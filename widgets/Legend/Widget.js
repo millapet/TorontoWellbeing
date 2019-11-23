@@ -72,8 +72,8 @@ define("dojo/_base/declare dojo/_base/array dojo/_base/lang dojo/_base/html dojo
             this._bindEvent()
 				
 				var panel = this.getPanel();
-				panel.position.width = 400;
-				panel.position.height = 200;
+				panel.position.width = 200;
+				panel.position.height = 300;
 				panel._originalBox = {
 					w: panel.position.width,
 					h: panel.position.height,
