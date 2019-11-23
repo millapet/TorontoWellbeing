@@ -18,7 +18,7 @@
    "authorizedCrossOriginDomains":[
 
    ],
-   "title":"Toronto_Neighbourhoods_wellbeing",
+   "title":"Toronto Neighbourhoods",
    "subtitle":"with Web AppBuilder for ArcGIS",
    "keepAppState":true,
    "logo":"images/app-logo.png",
@@ -276,7 +276,7 @@
                   }
                }
             },
-            "openAtStart":false
+            "openAtStart":true
          },
          {
             "position":{
