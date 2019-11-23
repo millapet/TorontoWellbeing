@@ -802,8 +802,14 @@ define("dojo/_base/declare dojo/_base/lang dojo/_base/html dojo/_base/array dojo
 				var panel = this.getPanel();
 				panel.position.width = 400;
 				panel.position.height = 200;
-				panel.setPosition(panel.position);
-				panel.panelManager.normalizePanel(panel);
+				panel._originalBox = {
+					w: panel.position.width,
+					h: panel.position.height,
+					l: panel.position.left || 0,
+					t: panel.position.top || 0
+				};
+        panel.setPosition(panel.position);
+        panel.panelManager.normalizePanel(panel);
             x.getInstance().activateWidget(this)
         },
         onDestroy: function() {
